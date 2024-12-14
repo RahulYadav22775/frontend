@@ -1,0 +1,6 @@
+deployment:
+ imageVersion: IMAGE_VERSION
+ imageURL: 337909750491.dkr.ecr.us-east-1.amazonaws.com/expense/dev/frontend
+ replicas: 2
+tgb:
+ arn: arn:aws:elasticloadbalancing:us-east-1:337909750491:targetgroup/expense-dev/70d3fc64a11421cd
